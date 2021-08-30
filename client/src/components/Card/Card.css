@@ -1,0 +1,39 @@
+.card {
+    /* display: grid; */
+    /* display: table-cell; */
+    display: flex;
+    width: 25vw;
+    height: 40vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 50px;
+    transition: 0.3s;
+    margin-bottom: 10vh;
+}
+
+.card:hover {
+    /* box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2); */
+    transform: scale(1.1);
+  }
+  
+.titleCard {
+    color: white;
+    background-color: grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cardImage {
+    width: 40vh;
+    object-fit: cover;
+    height: 30vh;
+    border-radius: 20px;
+}
+
+.dietCard {
+    display: flex;
+    font-size: 15px;
+    justify-content: space-around;
+    color: white;
+    flex-direction: row;
+}
