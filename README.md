@@ -16,10 +16,6 @@
 - Aprender y practicar el workflow de GIT.
 - Usar y practicar testing.
 
-## Horarios y Fechas
-
-El proyecto tendrá una duración máxima de tres semanas. En el caso de que completan todas las tareas antes de dicho lapso podrán avisar a su Instructor para coordinar una fecha de presentación del trabajo (DEMO).
-
 ## Comenzando
 
  1. Forkear el repositorio para tener una copia del mismo en sus cuentas
@@ -166,8 +162,3 @@ __IMPORTANTE__: No está permitido utilizar los filtrados, ordenamientos y pagin
   - Recibe los datos recolectados desde el formulario controlado de la ruta de creación de recetas por body
   - Crea una receta en la base de datos
 
-
-#### Testing
-- [ ] Al menos tener un componente del frontend con sus tests respectivos
-- [ ] Al menos tener una ruta del backend con sus tests respectivos
-- [ ] Al menos tener un modelo de la base de datos con sus tests respectivos
