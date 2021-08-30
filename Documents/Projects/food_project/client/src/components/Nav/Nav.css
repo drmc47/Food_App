@@ -1,0 +1,79 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    /* background-color: #18314F; */
+    color: white;
+    opacity: 0.90;
+    background-image: url('../../images/dark-background-4.jpeg');
+
+}
+
+.topButtons {
+    display: table-row;
+}
+
+.addrecipe{ 
+    text-decoration: none;
+    font-size: 20px;
+    background-color: none;
+    border-radius: 20px;
+    width: 10vw;
+    margin-left: 78vw;
+    padding: 5px;
+}
+.addrecipe:hover {
+    background-color: yellow;
+}
+
+.botonHome {
+    display: table-column;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    /* margin-left: 46vw; */
+    border-radius: 20px;
+}
+
+.botonHome:hover {
+    background-color: yellow;
+}
+
+.theForm { 
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+
+.selectDiets {
+    padding-left: 5px;
+    border-radius: 20px;
+}
+
+.selectAZ { 
+    border-radius: 20px;
+    padding: 5px
+}
+
+.selectOrder {
+    border-radius: 20px;
+    padding-left: 10px;
+}
+
+.inputSearch {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.labelSelect {
+    padding: 10px;
+    
+}

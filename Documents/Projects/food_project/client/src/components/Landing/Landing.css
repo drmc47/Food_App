@@ -1,0 +1,43 @@
+.div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../../images/teahub.io-diet-wallpaper-iphone-2520673.png');
+    /* padding-bottom: 73vh; */
+    /* background-size: 2000px; */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: left top; 
+
+}
+.title {
+    /* display: flexbox; */
+    /* justify-content: center;
+    align-items: center; */
+    font-size: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: yellow;
+    margin-bottom: 70vh;
+  
+
+}
+.boton {
+    display: inherit;
+    justify-content: flex-end;
+    align-items: flex-end;
+    color: rgb(255, 255, 255); 
+    font-size: 25px; 
+    padding: 5px; 
+    border-radius: 12px; 
+    font-family: monospace, serif; 
+    text-decoration: none; 
+    background-color: rgb(14, 29, 60);
+}
+    .boton:hover {
+    background: #3766A4; }
+    .boton:active {
+    background: #422E75; }

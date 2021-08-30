@@ -1,0 +1,31 @@
+.pageChanger {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background-color: #18314F;
+    color: white;
+    padding: 5px;
+    bottom: 0;
+    position: fixed;
+    /* margin-top: 10px;
+    margin-bottom: 10px; */
+    display: flex;
+    justify-content: center;
+    opacity: 0.90;
+    background-image: url('../../images/dark-background-4.jpeg');
+}
+
+.buttonChanger {
+    color: yellow;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    background-color: transparent;
+
+    
+}
+
+.labelPage {
+    padding: 10px;
+    font-size: 20px;
+}

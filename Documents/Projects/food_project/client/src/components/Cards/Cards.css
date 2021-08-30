@@ -1,0 +1,12 @@
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 33.333333%;
+    justify-content: center;
+    padding-top: 12vh;
+    background-image: url('../../images/dark-background-4.jpeg');
+    background-size: auto 20%;
+    background-position: left top; 
+
+
+}

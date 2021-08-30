@@ -1,0 +1,31 @@
+.detailContainer { 
+    padding-top: 15vh;
+    padding-bottom: 20vh;
+    padding-right: 30vw;
+    padding-left: 30vw;
+    background-image: url('../../images/dark-background-4.jpeg');
+    color: white;
+    font-size: 20px;
+    
+}
+
+.detailTitle { 
+    font-size: 50px;
+    color: yellow;
+}
+
+.imgDetail {
+    display: flex;
+    width: 30vw;
+    border-radius: 20px;
+    align-items: center;
+    
+}
+
+b {
+    font-size: 30px;
+}
+
+h3 {
+    color: yellow;
+}

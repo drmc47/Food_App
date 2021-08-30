@@ -1,0 +1,36 @@
+.container {
+    display: table-caption;
+    margin-top: 15vh;
+    color: white;
+}
+
+.formAdd {
+    display: flex;
+    margin-left: 25vw;
+    width: 100%;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 15px;
+}
+input {
+    border-radius: 15px;
+}
+.dietsList {
+    display: grid;
+    padding: 10px;
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.createButton { 
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.createButton:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,12 @@
+.errorDiv {
+    display: flex;
+    /* background-color: #FFFCE8; */
+    color:yellow;
+    text-align: center;
+    justify-content: center;
+}
+
+.errorTitle {
+    padding: 300px;
+    padding-bottom: 50vh;
+}
