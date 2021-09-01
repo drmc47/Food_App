@@ -1,8 +1,12 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
+import React from 'react';
+import {Link} from 'react-router-dom';
 import { filterDiet, orderAZ, orderScore, searchRecipe } from '../../actions';
-import {useDispatch} from 'react-redux'
-import './Nav.css'
+import {useDispatch} from 'react-redux';
+import './Nav.css';
+import Button from '@material-ui/core/Button';
+import {yellow} from '@material-ui/core/colors';
+
+
 
 
 function Nav() {
@@ -11,6 +15,9 @@ function Nav() {
         <div className='navbar'>
           <div className="topButtons">
             <Link to='/home' style={{textDecoration:'none'}}>
+          {/* <Button variant='contained' color='primary'>   
+          HOME
+            </Button>  */}
       <button className='botonHome'>
             Home
       </button>   
