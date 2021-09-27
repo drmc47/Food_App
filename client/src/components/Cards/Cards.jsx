@@ -56,6 +56,7 @@ function Cards() {
                 title={e.title}
                 diets={e.diets}
                 id={e.id}
+                _id={e._id}
                      />)
                 }
                 </div>)

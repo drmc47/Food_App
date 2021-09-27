@@ -34,7 +34,7 @@ function Detail({location: {search}}) {
                     <h1 className='detailTitle'>{moreInfo.title}</h1>
                     <img src={moreInfo.image} alt="img not found" className='imgDetail'/>
                     <h3>Diet type</h3>
-                    <p>{moreInfo.createdInDb ? moreInfo.diets.map((diet, index)=> <li key={index}>{diet.name}</li>) : moreInfo.diets.map((diet, index)=> <li key={index}>{diet}</li>)}</p> 
+                    <p>{moreInfo.createdInDb ? moreInfo.diets.map((diet, index)=> <li key={index}>{diet}</li>) : moreInfo.diets.map((diet, index)=> <li key={index}>{diet}</li>)}</p> 
                     <h3><b>Instructions: </b></h3>
                     {moreInfo.instructions ? <p>{moreInfo.instructions.replace(/(<([^>]+)>)/ig,'')}</p> : (moreInfo.analyzedInstructions?.length  ? moreInfo.analyzedInstructions[0].steps.map((e,i)=> <li key={i}>{e.step.replace(/(<([^>]+)>)/ig,'')}</li>) : <p>Sorry, no instructions available</p>)}
                     {/* <div dangerouslySetInnerHTML={createInstructions()}></div>  */}

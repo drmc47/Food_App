@@ -18,14 +18,10 @@
 //                       `=---='
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('./src/app.js');
-const { conn } = require('./src/db.js');
-// const {Diet} = require('./src/db')
-// Syncing all the models at once.
-conn.sync({ force: true }).then(() => {
-  server.listen(3001, async() => {
-    console.log('%s listening at 3001'); // eslint-disable-line no-console
+require('./src/db')
+const port = process.env.PORT || 8001
+  server.listen(port, async() => {
+    console.log(`%s listening at ${port}`);
     
 })
-})
-.catch(e=> console.log('Ocurrio un error'))
 

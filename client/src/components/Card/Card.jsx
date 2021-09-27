@@ -2,8 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Card.css'
 
-function Card({img, title, diets, id}) {
-    
+function Card({img, title, diets, id, _id}) {
+    if(_id) id=_id 
     return (
         <Link to ={{
             pathname: '/home/detail',
