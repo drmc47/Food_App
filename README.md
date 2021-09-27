@@ -31,7 +31,8 @@ The technologies used for this project were:
 
 ## Database
 
-- PostgreSQL and Sequelize as ORM
+- ~~PostgreSQL and Sequelize as ORM~~
+- MongoDB and Mongoose as ODM
 
 __IMPORTANT__: Make sure you have the latest version of Node and NPM
 
