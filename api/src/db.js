@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const {
   DB_USER, DB_PASSWORD, DB_NAME,
 } = process.env;
-
+console.log(DB_USER)
 const uri = `mongodb+srv://${DB_USER}:${DB_PASSWORD}@cluster0.bucbj.mongodb.net/${DB_NAME}?retryWrites=true&w=majority`;
 const db = mongoose.connection;
 
