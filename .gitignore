@@ -1,6 +1,6 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-.package-lock.json
 ./api/package-lock.json
+./api/node_modules
 # dependencies
 /node_modules
 /.pnp
@@ -13,7 +13,6 @@
 /build
 
 # misc
-./api/node_modules
 /api/.env
 .DS_Store
 .env.local
