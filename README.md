@@ -55,7 +55,7 @@ First you'll have to clone this repository in a folder in your computer, then yo
 - npm install 
 - npm start
 
-This will start the back-end server on your localhost:3001/
+This will start the back-end server on your localhost:8001/
 
 Then you must go back to the root directory of the project and: 
 
@@ -65,7 +65,6 @@ Then you must go back to the root directory of the project and:
 
 This will start the app on your localhost:3000
 
-Aditionally you'll have to create your local SQL database called 'food' in order to store your own recipes. 
 
 ### Landing Page
 
