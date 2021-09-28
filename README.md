@@ -40,7 +40,7 @@ By the time I finished it (August, 2021), I was using these versions:
 
 - **Node**: 12.18.3
 - **NPM**: 6.14.16
-- 
+ 
 To check your current version run these commands:
 
 > node -v
